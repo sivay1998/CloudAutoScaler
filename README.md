@@ -1,18 +1,7 @@
 # CloudAutoScaler
 
-Proof of Concept (POC) Document 
 
-Title: Automatic Scaling of a Cloud-Based Application Using AWS and Terraform 
-
- 
-
-1. Purpose of the POC 
-
-The purpose of this Proof of Concept (POC) is to demonstrate the automatic scaling of a cloud-based application using Amazon Web Services (AWS) and terraform. The objective is to configure an environment where instances can automatically scale in response to predefined metrics such as CPU utilization and incoming traffic. This ensures that the application can handle varying loads efficiently without manual intervention, optimizing resource usage and maintaining high availability. 
-
- 
-
-2. Prerequisites 
+1. Prerequisites 
 
 Before executing the Terraform configuration, ensure the following prerequisites are met: 
 
@@ -20,7 +9,9 @@ AWS Account: An active AWS account with necessary permissions to create and mana
 AWS CLI: AWS Command Line Interface (CLI) installed and configured with access credentials. 
 PEM Key: A .pem key file to connect to the EC2 instances via SSH. 
 Terraform: Terraform installed on the system where the script will be executed. 
- 
+2. Clone the repository
+       git clone https://github.com/sivay1998/CloudAutoScaler.git
+
 3. Overview of the Terraform Configuration (main.tf) 
 
 This section describes the Terraform code provided in the main.tf file. 
