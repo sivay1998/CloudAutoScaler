@@ -9,6 +9,8 @@ AWS Account: An active AWS account with necessary permissions to create and mana
 AWS CLI: AWS Command Line Interface (CLI) installed and configured with access credentials. 
 PEM Key: A .pem key file to connect to the EC2 instances via SSH. 
 Terraform: Terraform installed on the system where the script will be executed. 
+
+
 2. Clone the repository
        git clone https://github.com/sivay1998/CloudAutoScaler.git
 
