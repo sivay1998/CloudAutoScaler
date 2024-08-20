@@ -12,7 +12,7 @@ Terraform: Terraform installed on the system where the script will be executed.
 
 
 2. Clone the repository
-       git clone https://github.com/sivay1998/CloudAutoScaler.git
+      Command:  git clone https://github.com/sivay1998/CloudAutoScaler.git
 
 3. Overview of the Terraform Configuration (main.tf) 
 
